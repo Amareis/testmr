@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // This must be specified if "paths" is.
+    "paths": {
+      "*": [
+        "*",
+        "src/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true,
+    "module": "esNext",
+    "target": "es6",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/transform-runtime",
+    ["@babel/plugin-proposal-decorators", {"decoratorsBeforeExport": true}],
+    "@babel/plugin-transform-classes"
+  ],
+  "env": {
+    "test": {
+      "retainLines": true
+    }
+  }
+}
