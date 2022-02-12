@@ -47,7 +47,7 @@
     "@types/react-sticky-el": "^1.0.1",
     "@types/react-text-mask": "^5.4.3",
     "@types/uuid": "^3.4.4",
-    "ajv": "^6.5.0",
+    "ajv": "^6.12.3",
     "ajv-keywords": "^3.2.0",
     "apollo-link": "^1.2.3",
     "apollo-link-context": "^1.0.9",
